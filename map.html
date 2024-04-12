@@ -3,7 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+        <meta name="MobileOptimized" content="320">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="./resources/ol.css">
@@ -20,6 +22,11 @@
         }
         .ol-geocoder .gcd-gl-btn:after{
             display:none;
+        }
+        .leaflet-popup-content {
+            min-width: 200px;
+            min-height: 100px;
+            overflow-y: scroll;
         }
         </style>
 <style>

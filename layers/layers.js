@@ -25,7 +25,7 @@ var lyr_romeqgis_1 = new ol.layer.Vector({
                 style: style_romeqgis_1,
                 popuplayertitle: "romeqgis",
                 interactive: true,
-                position: "topleft"
+                position: "topleft",
     title: 'romeqgis<br />\
     <img src="styles/legend/romeqgis_1_0.png" /> 0<br />\
     <img src="styles/legend/romeqgis_1_1.png" /> 1<br />\

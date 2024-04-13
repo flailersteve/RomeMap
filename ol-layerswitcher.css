@@ -9,6 +9,7 @@
 .layer-switcher {
     position: absolute;
     top: 3.5em;
+    right: 0.5em;
     text-align: left;
 }
 
@@ -25,6 +26,7 @@
     display: none;
     max-height: 100%;
     overflow-y: auto;
+    position: top-left;
 }
 
 .layer-switcher.shown .panel {

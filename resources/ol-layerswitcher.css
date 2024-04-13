@@ -26,7 +26,7 @@
     display: none;
     max-height: 100%;
     overflow-y: auto;
-    position: top-left;
+    position: bottom-left;
 }
 
 .layer-switcher.shown .panel {
